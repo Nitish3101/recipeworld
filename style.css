@@ -1,0 +1,89 @@
+body
+{
+ background-image: url(2.jpg);
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ background-size:100%;
+ height: 100vh;
+}
+h2{
+    margin-top: 3cm;
+    color:greenyellow;
+    font-size: 30px;
+}
+
+.container
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+input
+{
+    padding: 10px;
+    margin: 10px;
+    max-width: 480px;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    border-color:greenyellow;
+    
+}
+input[type="submit"]
+{
+    background-color:greenyellow;
+    
+}
+.login
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.reset
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+a{
+    color:greenyellow; 
+}
+p
+{
+    color: white;
+    padding: 10px;
+    
+}
+input:hover
+{
+border-color:rgb(0, 0, 0) ;
+width: 200px;
+    
+}
+input[type="submit"]:hover
+{
+    background-color: rgb(130, 197, 29);
+    transition: 0.2s;
+    border: none;
+    width:100px;
+    
+}
+input[type="submit"]:active
+{
+    background-color: rgb(228, 247, 223); 
+}
